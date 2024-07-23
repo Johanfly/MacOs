@@ -94,5 +94,7 @@ defaults write com.apple.dock wvous-br-corner -int 0
 ```
 defaults write com.Apple.Dock show-recents -bool false
 ```
-# Only use UTF-8 in Terminal.app
+### Only use UTF-8 in Terminal.app
+```
 defaults write com.apple.terminal StringEncodings -array 4
+```
